@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Servicios | Asociación de Peritos Topógrafos de BCS</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header sticky-top">
+    <div class="container-xl py-2">
+      <div class="d-flex align-items-center justify-content-between">
+
+        <a href="index.html" class="text-decoration-none">
+          <img
+            src="./img/iconoApt.jpeg"
+            alt="Asociación de Peritos Topógrafos"
+            class="site-logo"
+          />
+        </a>
+
+        <nav class="d-none d-md-flex align-items-center gap-4">
+          <a href="index.html" class="nav-link-custom">Inicio</a>
+          <a href="Actividades.html" class="nav-link-custom">Actividades</a>
+          <a href="Principios.html" class="nav-link-custom">Principios</a>
+          <a href="Contacto.html" class="nav-link-custom">Contacto</a>
+          <a href="Servicios.html" class="btn btn-primary-custom active">
+            Servicios
+          </a>
+        </nav>
+
+        <button
+          class="navbar-toggler-custom d-md-none"
+          id="menuToggle"
+          type="button"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+          aria-controls="mobileMenu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+
+      <!-- MENÚ MÓVIL -->
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html" onclick="closeMenu()">Inicio</a>
+        <a href="Actividades.html" onclick="closeMenu()">Actividades</a>
+        <a href="Principios.html" onclick="closeMenu()">Principios</a>
+        <a href="Contacto.html" onclick="closeMenu()">Contacto</a>
+        <a href="Servicios.html" onclick="closeMenu()">Servicios</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="services-hero">
+    <div class="container-xl services-hero-content">
+      <span class="services-eyebrow">Nuestros servicios</span>
+
+      <h1>Precisión y confianza en cada proyecto</h1>
+
+      <p>
+        Soluciones profesionales en topografía, cartografía, geodesia
+        y fotogrametría para proyectos de construcción, infraestructura
+        y desarrollo territorial en Baja California Sur.
+      </p>
+    </div>
+  </section>
+
+  <!-- INTRODUCCIÓN -->
+  <section class="py-5">
+    <div class="container-xl">
+      <div class="services-intro">
+        <span class="services-eyebrow">Qué hacemos</span>
+
+        <h2 class="section-title mb-3">
+          Servicios especializados
+        </h2>
+
+        <p>
+          Reunimos conocimientos técnicos y experiencia profesional
+          para proporcionar información precisa del terreno, apoyar
+          la planeación de proyectos y contribuir al desarrollo
+          ordenado de nuestro estado.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATÁLOGO DE SERVICIOS -->
+  <section class="pb-5">
+    <div class="container-xl">
+      <div class="row g-4">
+
+        <div class="col-md-6 col-lg-4">
+          <article class="service-card">
+            <div class="service-icon">
+              <i class="bi bi-bounding-box" aria-hidden="true"></i>
+            </div>
+            <h3>Levantamientos topográficos</h3>
+            <p>
+              Medición y representación de las características físicas
+              del terreno, elaboración de planos, curvas de nivel
+              y levantamientos para proyectos de ingeniería.
+            </p>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="service-card">
+            <div class="service-icon">
+              <i class="bi bi-geo-alt" aria-hidden="true"></i>
+            </div>
+            <h3>Deslindes y medición de predios</h3>
+            <p>
+              Trabajos de medición y representación de límites,
+              dimensiones y superficies de terrenos, de acuerdo
+              con el alcance técnico de cada proyecto.
+            </p>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="service-card">
+            <div class="service-icon">
+              <i class="bi bi-globe-americas" aria-hidden="true"></i>
+            </div>
+            <h3>Geodesia y georreferenciación</h3>
+            <p>
+              Determinación de coordenadas, posicionamiento geográfico
+              y establecimiento de puntos de control para trabajos
+              topográficos y de ingeniería.
+            </p>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="service-card">
+            <div class="service-icon">
+              <i class="bi bi-camera" aria-hidden="true"></i>
+            </div>
+            <h3>Fotogrametría</h3>
+            <p>
+              Obtención y procesamiento de información del terreno
+              mediante imágenes aéreas, según los requerimientos
+              y las condiciones de cada proyecto.
+            </p>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="service-card">
+            <div class="service-icon">
+              <i class="bi bi-map" aria-hidden="true"></i>
+            </div>
+            <h3>Cartografía</h3>
+            <p>
+              Elaboración y actualización de planos y representaciones
+              cartográficas para apoyar el análisis territorial,
+              la planeación y la toma de decisiones.
+            </p>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="service-card">
+            <div class="service-icon">
+              <i class="bi bi-rulers" aria-hidden="true"></i>
+            </div>
+            <h3>Replanteo y control de obra</h3>
+            <p>
+              Localización de ejes, puntos, niveles y referencias
+              en campo para apoyar la ejecución de obras civiles
+              y proyectos de infraestructura.
+            </p>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO DE TRABAJO -->
+  <section class="process-section py-5">
+    <div class="container-xl">
+      <div class="text-center mb-4">
+        <span class="services-eyebrow">Nuestra metodología</span>
+        <h2 class="section-title">¿Cómo trabajamos?</h2>
+        <p class="section-subtitle">
+          Un proceso enfocado en las necesidades de cada proyecto.
+        </p>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="process-item">
+            <div class="process-number">01</div>
+            <h3>Conocemos tu proyecto</h3>
+            <p>
+              Identificamos las necesidades, los objetivos y el
+              alcance del trabajo solicitado.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="process-item">
+            <div class="process-number">02</div>
+            <h3>Planeamos el trabajo</h3>
+            <p>
+              Definimos las actividades técnicas, los recursos
+              necesarios y los entregables correspondientes.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="process-item">
+            <div class="process-number">03</div>
+            <h3>Entregamos resultados</h3>
+            <p>
+              Realizamos los trabajos acordados y presentamos
+              los resultados conforme al alcance establecido.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- INVITACIÓN A CONTACTAR -->
+  <!-- <section class="py-5">
+    <div class="container-xl">
+      <div class="services-cta">
+        <h2>¿Tienes un proyecto en mente?</h2>
+
+        <p>
+          Ponte en contacto con nosotros para compartir los detalles
+          de tu proyecto y consultar la disponibilidad de los
+          servicios que necesitas.
+        </p>
+
+        <a href="Contacto.html" class="btn btn-light">
+          <i class="bi bi-envelope me-2" aria-hidden="true"></i>
+          Solicitar información
+        </a>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- FOOTER -->
+  <footer id="contacto" class="site-footer">
+    <div class="container-xl footer-inner">
+
+      <div class="d-flex align-items-center gap-3">
+        <img
+          src="./img/icono2.png"
+          alt="Asociación de Peritos Topógrafos"
+          class="footer-logo"
+        />
+
+        <span class="footer-text">
+          Asociación de Peritos Topógrafos del Estado de Baja California Sur
+        </span>
+      </div>
+
+      <span class="footer-text">
+        &copy; 2026 Todos los derechos reservados.
+      </span>
+
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const toggle = document.getElementById("menuToggle");
+    const menu = document.getElementById("mobileMenu");
+
+    toggle.addEventListener("click", () => {
+      const isOpen = menu.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    function closeMenu() {
+      menu.classList.remove("open");
+      toggle.setAttribute("aria-expanded", "false");
+    }
+  </script>
+
+</body>
+</html>
